@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "es2020", // Ensure this is set to at least es2020
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "build",
+        "types": ["node"],
+        "lib": ["es2020"] // Ensure this includes es2020 or later
+    },
+     "include": ["src/**/*"],
+}
